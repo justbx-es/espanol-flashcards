@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Español">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAHMklEQVR4nO3XMRGEUBQEQT4OSJCABnyer6vCDwEyXjDdCjab2vU+5wZAzz49AIAZAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUWu7f9MbABjgAQBECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABErf9xTW8AYIAHABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABAlAABRAgAQJQAAUQIAECUAAFECABD1AT9RB7FCFIdQAAAAAElFTkSuQmCC">
+<title>Español Flashcards</title>
+<style>
+:root {
+  --bg:#F7F5F0; --card:#fff; --text:#1A1A18; --muted:#888780; --hint:#B4B2A9;
+  --border:rgba(0,0,0,0.08); --border-med:rgba(0,0,0,0.14);
+  --purple:#534AB7; --purple-light:#EEEDFE; --purple-dark:#3C3489;
+  --green:#3B6D11; --green-light:#EAF3DE; --green-border:#97C459;
+  --red:#A32D2D; --red-light:#FCEBEB; --red-border:#F09595;
+  --radius:14px; --radius-sm:10px;
+  --font:-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100dvh}
+.header{padding:48px 16px 10px;background:var(--bg);position:sticky;top:0;z-index:10;border-bottom:1px solid var(--border)}
+.header-row1{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.app-title{font-family:var(--serif);font-size:20px;letter-spacing:-0.3px}
+.score-row{display:flex;gap:6px}
+.header-row2{display:flex;gap:8px;align-items:center}
+.deck-select{flex:1;appearance:none;-webkit-appearance:none;background:var(--card);border:1px solid var(--border-med);border-radius:var(--radius-sm);padding:9px 28px 9px 10px;font-family:var(--font);font-size:14px;font-weight:500;color:var(--text);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23888780' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 8px center}
+.flip-btn{padding:9px 12px;background:var(--card);border:1px solid var(--border-med);border-radius:var(--radius-sm);font-size:13px;font-weight:600;color:var(--purple);cursor:pointer;white-space:nowrap}
+.flip-btn.active{background:var(--purple-light);border-color:var(--purple)}
+.progress-wrap{padding:8px 16px 0}
+.progress-meta{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:4px}
+.progress-bg{background:var(--border);border-radius:999px;height:4px;overflow:hidden}
+.progress-fill{background:var(--purple);height:4px;border-radius:999px;transition:width .4s cubic-bezier(.4,0,.2,1)}
+.main{padding:16px;max-width:480px;margin:0 auto}
+.question-card{background:var(--card);border-radius:var(--radius);border:1px solid var(--border);padding:28px 16px;text-align:center;margin-bottom:12px;min-height:110px;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
+.q-label{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--hint);margin-bottom:10px}
+.q-text{font-family:var(--serif);font-size:24px;color:var(--text);line-height:1.3}
+.input-group{display:flex;gap:8px;margin-bottom:10px}
+.answer-input{flex:1;border:1.5px solid var(--border-med);border-radius:var(--radius-sm);padding:12px;font-family:var(--font);font-size:16px;color:var(--text);background:var(--card);outline:none;-webkit-appearance:none;transition:border-color .15s,box-shadow .15s}
+.answer-input:focus{border-color:var(--purple);box-shadow:0 0 0 3px var(--purple-light)}
+.answer-input:disabled{background:var(--bg);color:var(--muted)}
+.check-btn{padding:12px 16px;background:var(--purple);color:#fff;border:none;border-radius:var(--radius-sm);font-family:var(--font);font-size:15px;font-weight:600;cursor:pointer;-webkit-appearance:none}
+.check-btn:active{background:var(--purple-dark)}
+.check-btn:disabled{opacity:.5}
+.feedback{border-radius:var(--radius);padding:12px 14px;margin-bottom:10px;display:none;animation:fadeIn .2s ease}
+@keyframes fadeIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+.feedback.show{display:block}
+.feedback.correct{background:var(--green-light);border:1px solid var(--green-border)}
+.feedback.wrong{background:var(--red-light);border:1px solid var(--red-border)}
+.fb-status{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px}
+.feedback.correct .fb-status{color:var(--green)}
+.feedback.wrong .fb-status{color:var(--red)}
+.fb-answer{font-family:var(--serif);font-size:20px;color:var(--text);margin-bottom:2px}
+.fb-yours{font-size:13px;color:var(--muted)}
+.next-btn{width:100%;padding:13px;background:var(--card);border:1.5px solid var(--border-med);border-radius:var(--radius-sm);font-family:var(--font);font-size:15px;font-weight:600;color:var(--text);cursor:pointer;display:none;-webkit-appearance:none}
+.next-btn.show{display:block}
+.next-btn:active{background:var(--bg)}
+.tag{display:inline-block;font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px}
+.tag-g{background:var(--green-light);color:var(--green)}
+.tag-r{background:var(--red-light);color:var(--red)}
+#done-screen{display:none;flex-direction:column;align-items:center;padding:36px 16px 20px;max-width:480px;margin:0 auto;text-align:center}
+#done-screen.show{display:flex}
+.done-pct{font-family:var(--serif);font-size:72px;color:var(--purple);line-height:1;margin-bottom:4px}
+.done-label{font-size:15px;color:var(--muted);margin-bottom:16px}
+.done-tags{display:flex;gap:8px;margin-bottom:24px}
+.done-tags .tag{font-size:14px;padding:5px 14px}
+.done-btns{display:flex;flex-direction:column;gap:10px;width:100%}
+.primary-btn{padding:14px;background:var(--purple);color:#fff;border:none;border-radius:var(--radius-sm);font-family:var(--font);font-size:15px;font-weight:600;cursor:pointer;-webkit-appearance:none}
+.primary-btn:active{background:var(--purple-dark)}
+.secondary-btn{padding:14px;background:var(--card);color:var(--text);border:1.5px solid var(--border-med);border-radius:var(--radius-sm);font-family:var(--font);font-size:15px;font-weight:600;cursor:pointer;-webkit-appearance:none}
+.secondary-btn:active{background:var(--bg)}
+.secondary-btn:disabled{opacity:.35;cursor:default}
+#loading{padding:40px 16px;text-align:center;color:var(--muted);font-size:15px}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-row1">
+    <span class="app-title">Español</span>
+    <div class="score-row">
+      <span class="tag tag-g" id="score-right">✓ 0</span>
+      <span class="tag tag-r" id="score-wrong">✗ 0</span>
+    </div>
+  </div>
+  <div class="header-row2">
+    <select class="deck-select" id="deck-select"></select>
+    <button class="flip-btn" id="flip-btn" onclick="toggleDirection()">ES→FR</button>
+  </div>
+</div>
+
+<div class="progress-wrap">
+  <div class="progress-meta">
+    <span id="card-counter"></span>
+    <span id="pct-label"></span>
+  </div>
+  <div class="progress-bg"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+</div>
+
+<div id="loading">Loading decks…</div>
+
+<div class="main" id="quiz-area" style="display:none">
+  <div class="question-card">
+    <div class="q-label" id="q-label">French</div>
+    <div class="q-text" id="question-text"></div>
+  </div>
+  <div class="input-group">
+    <input type="text" class="answer-input" id="answer-input"
+      placeholder="Type your answer…"
+      autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+    <button class="check-btn" id="check-btn" onclick="check()">Check</button>
+  </div>
+  <div class="feedback" id="feedback">
+    <div class="fb-status" id="fb-status"></div>
+    <div class="fb-answer" id="fb-answer"></div>
+    <div class="fb-yours" id="fb-yours"></div>
+  </div>
+  <button class="next-btn" id="next-btn" onclick="next()">Next →</button>
+</div>
+
+<div id="done-screen">
+  <div class="done-pct" id="done-pct"></div>
+  <div class="done-label" id="done-label"></div>
+  <div class="done-tags">
+    <span class="tag tag-g" id="done-right"></span>
+    <span class="tag tag-r" id="done-wrong"></span>
+  </div>
+  <div class="done-btns">
+    <button class="secondary-btn" id="retest-btn" onclick="retestWrong()">↺ Retest wrong answers</button>
+    <button class="primary-btn" onclick="restart()">Shuffle &amp; start over</button>
+  </div>
+</div>
+
+<script>
+var allDecks = {};
+var deck = [];
+var wrongCards = [];
+var cur = 0;
+var score = {r:0, w:0};
+var curKey = '';
+var inverted = false;
+
+function norm(s) {
+  return s.trim().toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g,'')
+    .replace(/[¿¡?!.,;:]/g,'').trim();
+}
+
+function shuffle(a) {
+  var b = a.slice();
+  for (var i = b.length-1; i > 0; i--) {
+    var j = Math.floor(Math.random()*(i+1));
+    var t = b[i]; b[i] = b[j]; b[j] = t;
+  }
+  return b;
+}
+
+function parseCSV(text) {
+  var lines = text.trim().split('\n');
+  var result = [];
+  for (var i = 0; i < lines.length; i++) {
+    var line = lines[i].trim();
+    if (!line) continue;
+    var cols = [], cur2 = '', inQ = false;
+    for (var ci = 0; ci < line.length; ci++) {
+      var c = line[ci];
+      if (c === '"') { inQ = !inQ; }
+      else if (c === ',' && !inQ) { cols.push(cur2); cur2 = ''; }
+      else cur2 += c;
+    }
+    cols.push(cur2);
+    if (cols.length >= 2) {
+      var qv = cols[0].trim(), av = cols[1].trim();
+      if (i === 0 && (qv.toLowerCase() === 'french' || qv.toLowerCase() === 'q')) continue;
+      if (qv && av) result.push({q: qv, a: av});
+    }
+  }
+  return result;
+}
+
+function loadDecks() {
+  fetch('./manifest.json')
+    .then(function(r){ return r.json(); })
+    .then(function(manifest) {
+      var promises = manifest.map(function(entry) {
+        return fetch('./' + entry.file)
+          .then(function(r){ return r.text(); })
+          .then(function(text){ allDecks[entry.name] = parseCSV(text); });
+      });
+      return Promise.all(promises).then(function(){ return manifest; });
+    })
+    .then(function(manifest) {
+      var sel = document.getElementById('deck-select');
+      manifest.forEach(function(entry) {
+        var o = document.createElement('option');
+        o.value = o.textContent = entry.name;
+        sel.appendChild(o);
+      });
+      sel.addEventListener('change', function(){ start(sel.value); });
+      document.getElementById('loading').style.display = 'none';
+      curKey = manifest[0].name;
+      sel.value = curKey;
+      start(curKey);
+    })
+    .catch(function(e){
+      document.getElementById('loading').textContent = 'Error loading decks: ' + e.message;
+    });
+}
+
+function toggleDirection() {
+  inverted = !inverted;
+  var btn = document.getElementById('flip-btn');
+  btn.textContent = inverted ? 'FR→ES' : 'ES→FR';
+  btn.classList.toggle('active', inverted);
+  start(curKey);
+}
+
+function getCard(raw) {
+  return inverted ? {q: raw.a, a: raw.q} : {q: raw.q, a: raw.a};
+}
+
+function start(key) {
+  curKey = key;
+  deck = shuffle(allDecks[key]);
+  wrongCards = [];
+  cur = 0; score = {r:0, w:0};
+  document.getElementById('quiz-area').style.display = 'block';
+  document.getElementById('done-screen').className = '';
+  document.getElementById('q-label').textContent = inverted ? 'Spanish' : 'French';
+  updateScore(); showCard();
+}
+
+function retestWrong() {
+  if (!wrongCards.length) return;
+  deck = shuffle(wrongCards.slice());
+  wrongCards = [];
+  cur = 0; score = {r:0, w:0};
+  document.getElementById('done-screen').className = '';
+  document.getElementById('quiz-area').style.display = 'block';
+  document.getElementById('q-label').textContent = inverted ? 'Spanish' : 'French';
+  updateScore(); showCard();
+}
+
+function restart() { start(curKey); }
+
+function updateScore() {
+  document.getElementById('score-right').textContent = '✓ ' + score.r;
+  document.getElementById('score-wrong').textContent = '✗ ' + score.w;
+}
+
+function showCard() {
+  var raw = deck[cur];
+  var card = getCard(raw);
+  var pct = Math.round(cur / deck.length * 100);
+  document.getElementById('question-text').textContent = card.q;
+  document.getElementById('card-counter').textContent = (cur+1) + ' / ' + deck.length;
+  document.getElementById('pct-label').textContent = pct + '%';
+  document.getElementById('progress-fill').style.width = pct + '%';
+  var inp = document.getElementById('answer-input');
+  inp.value = ''; inp.disabled = false;
+  document.getElementById('check-btn').disabled = false;
+  document.getElementById('feedback').className = 'feedback';
+  document.getElementById('next-btn').className = 'next-btn';
+  setTimeout(function(){ inp.focus(); }, 80);
+}
+
+function check() {
+  var inp = document.getElementById('answer-input');
+  var typed = inp.value;
+  if (!typed.trim()) return;
+  inp.disabled = true;
+  document.getElementById('check-btn').disabled = true;
+  var raw = deck[cur];
+  var card = getCard(raw);
+  var ok = norm(typed) === norm(card.a);
+  if (ok) score.r++; else { score.w++; wrongCards.push(raw); }
+  updateScore();
+  var fb = document.getElementById('feedback');
+  fb.className = 'feedback ' + (ok ? 'correct' : 'wrong') + ' show';
+  document.getElementById('fb-status').textContent = ok ? '✓ Correct!' : '✗ Not quite';
+  document.getElementById('fb-answer').textContent = card.a;
+  document.getElementById('fb-yours').textContent = ok ? '' : 'You wrote: ' + typed;
+  document.getElementById('next-btn').className = 'next-btn show';
+}
+
+function next() {
+  cur++;
+  if (cur >= deck.length) { showDone(); return; }
+  showCard();
+}
+
+function showDone() {
+  document.getElementById('quiz-area').style.display = 'none';
+  document.getElementById('done-screen').className = 'show';
+  var total = deck.length;
+  var pct = Math.round(score.r / total * 100);
+  document.getElementById('done-pct').textContent = pct + '%';
+  document.getElementById('done-label').textContent = score.r + ' of ' + total + ' correct';
+  document.getElementById('done-right').textContent = '✓ ' + score.r + ' right';
+  document.getElementById('done-wrong').textContent = '✗ ' + score.w + ' wrong';
+  document.getElementById('progress-fill').style.width = '100%';
+  document.getElementById('pct-label').textContent = '100%';
+  var retestBtn = document.getElementById('retest-btn');
+  if (wrongCards.length > 0) {
+    retestBtn.disabled = false;
+    retestBtn.textContent = '↺ Retest ' + wrongCards.length + ' wrong answer' + (wrongCards.length > 1 ? 's' : '');
+  } else {
+    retestBtn.disabled = true;
+    retestBtn.textContent = '✓ No wrong answers!';
+  }
+}
+
+document.getElementById('answer-input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    if (this.disabled) next(); else check();
+  }
+});
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js');
+  });
+}
+
+loadDecks();
+</script>
+</body>
+</html>
